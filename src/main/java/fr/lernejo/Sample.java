@@ -4,7 +4,7 @@ import java.util.function.BiFunction;
 
 public class Sample {
 
-    public int op(Operation op, int a, int b) {
+    public static int op(Operation op, int a, int b) {
         return op.func.apply(a, b);
     }
 
